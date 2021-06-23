@@ -1,10 +1,11 @@
 from twilio.rest import Client
 import requests
+import os
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall?"
-api_key = {"OWM api key"}
-account_sid = {"twilio sid"}
-auth_token = {"twilio token"}
+api_key = os.environ.get("api_key")
+account_sid = os.environ.get("account_sid")
+auth_token = os.environ.get("auth_token")
 
 weather_param = {
     "lat": -37.814,

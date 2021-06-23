@@ -1,4 +1,4 @@
-100 days of code - Python
+100 days of code - Python3.9
 
 Day 35 - Rain Alert
 
@@ -6,7 +6,7 @@ This app uses the open weather api to see if it will rain in the next few hours.
 Check .envexample for variables required
 
 
-Highlights: Consuming APIs, Parsing JSON
+Highlights: Consuming APIs, Parsing JSON, Env variables
 
 APIs used:
 https://openweathermap.org/
