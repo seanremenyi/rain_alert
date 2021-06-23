@@ -1,0 +1,14 @@
+Open Weather variables
+https://openweathermap.org/
+api_key = ""
+
+Twilio account variables
+https://www.twilio.com/
+account_sid = ""
+auth_token = ""
+
+Twillio phone number
+from_=""
+
+Your phone number
+to=""
